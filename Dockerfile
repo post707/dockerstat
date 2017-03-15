@@ -4,4 +4,4 @@ WORKDIR /opt/app/
 COPY main . 
 
 EXPOSE 3000 
-CMD ["sh","run.sh"]
+CMD ["main"]
